@@ -6,48 +6,46 @@ public class Dragon extends Animal implements AdvancedFlyer, Smoker {
 
 	public Dragon(int id, String name) {
 		super(id, name);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void fly() {
-		// TODO Auto-generated method stub
+		System.out.println("fly like a dragon");
 
 	}
 
 	@Override
 	public void takeOff() {
-		// TODO Auto-generated method stub
+		System.out.println("takeOff like a dragon");
 
 	}
 
 	@Override
 	public void land() {
-		// TODO Auto-generated method stub
-
+		System.out.println("land like a dragon");
 	}
 
 	@Override
 	public void smoke() {
-		// TODO Auto-generated method stub
+		System.out.println("smoke like a dragon");
 
 	}
 
 	@Override
 	public void navigate() {
-		// TODO Auto-generated method stub
+		System.out.println("navigate like a dragon");
 
 	}
 
 	@Override
 	public void speak() {
-		// TODO Auto-generated method stub
+		System.out.println("speak like a dragon");
 
 	}
 
 	@Override
 	public void move() {
-		// TODO Auto-generated method stub
+		System.out.println("move like a dragon");
 
 	}
 

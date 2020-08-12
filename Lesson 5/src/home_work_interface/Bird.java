@@ -16,7 +16,7 @@ public class Bird extends Animal implements AdvancedFlyer {
 
 	@Override
 	public void move() {
-		System.out.println("speak like a bird");
+		System.out.println("move like a bird");
 
 	}
 
